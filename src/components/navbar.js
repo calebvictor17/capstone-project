@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 function Navbar() {
   return (
-    <header className='bg-black py-12'> 
+    <header className='bg-black py-12 fixed top-0 w-full'> 
         <div className='max-w-[1440px] mx-auto flex justify-between'>
             <nav>
-                <ul className='flex gap-16 justify-between text-white position:sticky'>
+                <ul className='flex gap-16 justify-between text-white '>
                     <li><Link href="/" >Home</Link></li>
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/team">Team</Link></li>
