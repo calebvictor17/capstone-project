@@ -2,13 +2,17 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import HeroSection from '../components/hero'
 import Matches from '../components/fixtures'
-import Footer from '@/components/footer'
+import About from '@/components/about'
+import LatestNews from '@/components/blog'
 function Home() {
   return (
     <div><Navbar/>
     <HeroSection/>
     <Matches/>
-    <Footer/>
+    <About/>
+    <LatestNews/>
+    
+    
     </div>
   )
 }
