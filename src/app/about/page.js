@@ -20,7 +20,7 @@ const AboutTeam = () => {
         <hr className="w-20 mx-auto border-2 border-red-600 mt-2" />
       </div>
 
-      <section className="w-full max-sm:flex-col max-sm:mx-0 px-3 max-sm:gap-0 flex justify-center items-center my-5 mx-8 gap-8">
+      <section className="w-full max-sm:flex-col max-sm:mx-0 px-3 max-sm:gap-0 flex justify-center items-center my-5 mx-8 gap-8 bg-white">
         <div className="grid max-w-2xl md:grid-cols-1 gap-6 text-center my-10 mx-auto">
           <div className="hidden sm:block flex-col items-center">
             <img
@@ -46,7 +46,7 @@ const AboutTeam = () => {
           />
         </div>
 
-        <div className=" items-start p-8 gap-5 flex flex-col justify-center max-sm:w-md text-lg">
+        <div className=" items-start p-8 gap-5 flex flex-col justify-center max-sm:w-md text-lg bg-white">
           <h3 className="bg-red-600 text-white px-6 py-2 rounded-full tracking-wider font-bold mt-4 w-55 h-10  justify-center flex">
             USMAN FC
           </h3>
@@ -124,7 +124,7 @@ const AboutTeam = () => {
         <About />
       </div>
 
-      <section className="my-8">
+      <section className="my-8 bg-white">
         <h3 className="text-red-500 uppercase font-semibold tracking-wider flex justify-center bg-white">
           STAFFS
         </h3>

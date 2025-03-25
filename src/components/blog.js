@@ -32,7 +32,7 @@ const newsData = [
 
 export default function LatestNews() {
   return (
-    <section className="container width-full mx-auto px-6 py-10">
+    <section className="container width-full mx-auto px-6 py-10 bg-white">
       <h3 className="text-red-500 uppercase font-semibold tracking-wider flex justify-center">
         Blog
       </h3>

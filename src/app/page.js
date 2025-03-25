@@ -6,7 +6,7 @@ import About from '@/components/about'
 import LatestNews from '@/components/blog'
 function Home() {
   return (
-    <div><Navbar/>
+    <div className='overflow-hidden'><Navbar/>
     <HeroSection/>
     <Matches/>
     <About/>

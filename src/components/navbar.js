@@ -2,7 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+
 function Navbar() {
+  
   return (
     <header className="bg-black  fixed w-full   z-50 mt-5 shadow-md ">
       <div className=" mx-auto flex items-center justify-between py-4 px-5">
